@@ -1,0 +1,45 @@
+{
+  "name": "github-expo-build-cache-provider",
+  "description": "Build cache provider for Expo CLI using GitHub Releases",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huextrat/github-expo-build-cache-provider.git"
+  },
+  "author": "Hugo EXTRAT <extrat.h@gmail.com> (https://github.com/huextrat)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huextrat/github-expo-build-cache-provider/issues"
+  },
+  "homepage": "https://github.com/huextrat/github-expo-build-cache-provider#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "check": "npx biome check",
+    "check:fix": "npx biome check --write",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "expo": "53.0.9",
+    "typescript": "5.8.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@octokit/rest": "21.1.1",
+    "@types/fs-extra": "11.0.4",
+    "env-paths": "3.0.0",
+    "expo-module-scripts": "4.1.7",
+    "fs-extra": "11.3.0",
+    "node-fetch": "3.3.2",
+    "octokit": "4.1.3",
+    "tar": "7.4.3",
+    "uuid": "11.1.0"
+  },
+  "files": [
+    "build"
+  ],
+  "packageManager": "yarn@4.9.1"
+}
