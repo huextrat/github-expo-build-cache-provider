@@ -25,7 +25,7 @@ Add the following to your Expo project's `app.json`:
     "experiments": {
       "remoteBuildCache": {
         "provider": {
-          "plugin": "github-expo-build-cache-provider",
+          "plugin": "@huextrat/github-expo-build-cache-provider",
           "options": {
             "owner": "<YOUR_GITHUB_USERNAME>",
             "repo": "<YOUR_REPO_NAME>"
