@@ -2219,7 +2219,7 @@ __metadata:
     expo-module-scripts: "npm:4.1.7"
     fs-extra: "npm:11.3.0"
     node-fetch: "npm:3.3.2"
-    octokit: "npm:4.1.3"
+    octokit: "npm:4.1.4"
     semantic-release: "npm:^24.2.3"
     tar: "npm:7.4.3"
     typescript: "npm:5.8.3"
@@ -3026,7 +3026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/webhooks@npm:^13.6.1":
+"@octokit/webhooks@npm:^13.6.1, @octokit/webhooks@npm:^13.8.3":
   version: 13.9.0
   resolution: "@octokit/webhooks@npm:13.9.0"
   dependencies:
@@ -9629,9 +9629,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"octokit@npm:4.1.3":
-  version: 4.1.3
-  resolution: "octokit@npm:4.1.3"
+"octokit@npm:4.1.4":
+  version: 4.1.4
+  resolution: "octokit@npm:4.1.4"
   dependencies:
     "@octokit/app": "npm:^15.1.6"
     "@octokit/core": "npm:^6.1.5"
@@ -9643,7 +9643,8 @@ __metadata:
     "@octokit/plugin-throttling": "npm:^10.0.0"
     "@octokit/request-error": "npm:^6.1.8"
     "@octokit/types": "npm:^14.0.0"
-  checksum: 10/ac80847531b5b38b57e360d76f0d999cda8494facf76ee329e80daf6ebc25d3d43c302ae4a4496ac4913436175be8e30c5b8f4ca19d82637e539674b00b3ce02
+    "@octokit/webhooks": "npm:^13.8.3"
+  checksum: 10/e36622057b06e09405218cb61f3365219efa652cff07b639d4954f4ded2a4dbab1df9fbd2e1f0661451188788a6b6abd7802cfe7c7f9c82a3146d93ae4f900ea
   languageName: node
   linkType: hard
 
